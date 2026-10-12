@@ -1,0 +1,65 @@
+name: clean_starter
+description: "A new Flutter project."
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  # Core Flutter
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management & Dependency Injection
+  provider: ^6.1.5+1
+  get_it: ^9.3.0
+
+  # Local Storage & Utilities
+  shared_preferences: ^2.5.3
+  path: ^1.9.1
+
+  # UI & User Experience
+  shimmer: ^4.0.0
+  fluttertoast: ^10.0.0
+  pinput: ^6.0.2
+  lottie: ^3.3.2
+  flutter_svg: ^2.2.1
+  cached_network_image: ^4.0.2
+
+  # Internationalization & System Info
+  intl: ^0.20.2
+  package_info_plus: ^10.2.1
+
+  # Sharing & Authentication
+  share_plus: ^13.3.0
+  smart_auth: ^3.2.0
+
+  # Serialization & Data Modeling
+  json_serializable: ^6.11.1
+  json_annotation: ^4.9.0
+
+  # Logging & Debugging
+  logger: ^2.6.1
+
+  # Networking & Permissions
+  dio: ^5.9.0
+  connectivity_plus: ^7.0.0
+  permission_handler: ^13.0.2
+
+  # Functional Programming
+  fpdart: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.8.0
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+
+  uses-material-design: true
